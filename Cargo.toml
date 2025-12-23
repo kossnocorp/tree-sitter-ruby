@@ -23,13 +23,13 @@ include = ["LICENSE", "bindings/rust/*", "grammar.js", "queries/*", "src/*", "tr
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", rev = "134a7681721a4c2aba2e499630c34dc0cb54f1f8" }
+tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
 
 [build-dependencies]
 cc = "1.1"
 
 [dev-dependencies]
-tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", rev = "134a7681721a4c2aba2e499630c34dc0cb54f1f8" }
+tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
 
 # NOTE: Use these for local development with path overrides:
 
